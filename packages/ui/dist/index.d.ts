@@ -1,11 +1,11 @@
 import * as React from "react";
 export declare type RouteProps = {
-    element: any;
     path: string;
+    element: JSX.Element | React.FunctionComponent | any;
 };
 export declare const AppShell: React.FunctionComponent<{
     title: string;
-    routes: RouteProps[];
     colorScheme?: "light" | "dark";
+    routes: RouteProps[];
 }>;
 //# sourceMappingURL=index.d.ts.map
