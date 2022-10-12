@@ -1,3 +1,3 @@
-export * from './Test';
-export * from './Test2';
+export default as;
+export default as;
 //# sourceMappingURL=index.d.ts.map
